@@ -21,11 +21,15 @@ abstract class AbstractProduct
     const MIN_QUALITY = 0;
 
     /**
+     * Debería ser una propiedad privada y accedida únicamente a través del getter y modificada por el setter
+     * pero como se usa directamente en los tests, la dejé como pública
      * @var int
      */
     public $sellIn;
 
     /**
+     * Debería ser una propiedad privada y accedida únicamente a través del getter y modificada por el setter
+     * pero como se usa directamente en los tests, la dejé como pública
      * @var int
      */
     public $quality;
